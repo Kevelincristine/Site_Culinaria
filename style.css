@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvatica, Sans-serif;
+    --fonte-especial: "pacifico", verdana, sans-serif;
+    --cor1 : #ffbd44;
+    --cor2:  #faa200;
+}
+
+* {
+    margin-bottom: 0%;
+}
+body{
+    font-family: var(--fonte-padrao);
+    font-size: larger;
+    margin-bottom: 0%;
+}
+
+header .h1 {
+    display: inline-block;
+    
+}
+header a:hover{
+    background-color: rgb(233, 232, 232);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header h1{
+    margin-right: 650px;
+    
+}
+header p {
+    margin: 10px;
+    
+}
+section {
+    background-image: url(imagens/imagemMassa.png);
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+    margin-bottom: 50px;
+    
+
+}
+section #titulo2{
+
+    text-align: center;
+    font-family:var(--fonte-especial);
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+
+}
+section  #texto {
+    margin-top: 10px;
+    margin-left:490px;
+    font-style: italic;
+
+}
+section #ver_receita:hover{
+    background-color: var(--cor2);
+}
+section #ver_receita{
+   
+    margin-top: 60px;
+    margin-right: 0%;
+     margin-left: 640px;
+    border: 1px solid var(--cor1);
+     padding-right: 0%;
+    background-color: var(--cor1)   ;
+    text-align: center;
+    color: white;
+    
+}
+  article{
+    
+    margin-left: 270px;
+   
+  }
+ article p {
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: serif, Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    
+ }
+ article .imgs{
+    display: inline-block;
+    margin-left: 40px;
+    border-radius: 10px;
+    
+ }
+ article #sobremesas{
+    margin-left: 110px;
+ }
+ div h2 {
+    text-align: center;
+   font-size: xxx-large;
+    font-family: serif;
+    margin-bottom: 20px;
+ }
+ 
+ footer{
+    
+    font-size: larger;
+    width: 500px;
+    margin: auto;
+
+ }
+ footer a {
+    text-decoration: none;
+    color: var(--cor2);
+ }
